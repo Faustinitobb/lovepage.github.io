@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Mensaje Secreto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="login-screen">
+        <h2>Iniciar sesión</h2>
+        <form id="login-form">
+            <input type="text" id="username" placeholder="Usuario" required>
+            <input type="password" id="password" placeholder="Contraseña" required>
+            <button type="submit">Acceder</button>
+        </form>
+        <p id="error-message" style="color: red; display: none;">Usuario o contraseña incorrectos</p>
+    </div>
+    
+    <div id="love-screen" style="display: none;">
+        <div id="heart-container">
+            <div id="heart"></div>
+            <p id="love-message">Te amo con el alma mamita</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
